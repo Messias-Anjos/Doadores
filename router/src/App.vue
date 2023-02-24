@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <nav>
-      <router-link id="Home1" to="/">Texto Teste</router-link> 
-      <router-link id="video" to="/about">Mais Projetos</router-link> 
-      <router-link id="imagem" :to="{name: 'NovoArquivo'}">Fale Conosco</router-link>
+      <router-link id="Home1" to="/">Abraça São Paulo</router-link> 
+      <router-link id="video" to="/about">Doador</router-link> 
+      <router-link id="imagem" :to="{name: 'NovoArquivo'}">Beneficiário</router-link>
     </nav>
     <router-view/>
   </div>
